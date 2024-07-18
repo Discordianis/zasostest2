@@ -1,0 +1,46 @@
+.or_regist{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.button_close{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.regist > h2{
+    margin: 0 0 1.5rem 0;
+}
+
+.regist_page_main > .regist > input{
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    width: 25rem;
+    height: 2.2em;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0 0 1.1rem 0;
+}
+
+.regist_page_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.or_regist > p, .regist_page_main > .regist > h2{
+    text-align: center;
+}
+
+.regist > p{
+    bottom: 15px;
+    position: relative;
+}
+
+.user_error, .email_error{
+    position: relative;
+    top: 0;
+}

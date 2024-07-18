@@ -1,0 +1,18 @@
+.clicker_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    text-align: center;
+}
+
+.clicker_store{
+    margin: 1.5rem;
+}
+
+.clicker_clicks{
+    padding: 1.2rem;
+    background: #363636;
+    border-radius: 8px;
+    margin: 10px;
+}

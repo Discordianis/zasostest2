@@ -1,0 +1,12 @@
+.story_parts{
+    text-align: center;
+    margin: 2rem;
+}
+
+.story_parts_hist, .story_parts_faq, .faq_desc{
+    margin: 1em;
+}
+
+.story_parts_hist > p{
+    margin: 3px;
+}

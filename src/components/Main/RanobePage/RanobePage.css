@@ -1,0 +1,132 @@
+.book_stars > div > div > img{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.rate_full{
+    overflow: hidden;
+}
+
+.book_stars > div > div{
+    position: absolute;
+}
+
+.book_stars > div{
+    width: 200px;
+    height: 38.45px;
+    position: relative;
+}
+
+.book_info{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    margin-top: 20px;
+}
+
+.book_page_main{
+    padding: 20px;
+    background: #292929;
+    border-radius: 7px;
+    margin: 80px;
+}
+
+.left_info{
+    margin-right: 20px;
+}
+
+.left_info > select{
+    width: 100%;
+    text-align: center;
+}
+
+.left_info > img{
+    width: 200px;
+    height: 284px;
+    object-fit: cover;
+}
+
+.book_stars{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.rate_book > div > p{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.short_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.status_info > div:nth-child(2){
+    margin: 10px 0;
+}
+
+.status_info{
+    margin-right: 20px;
+}
+
+.rate_book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.key_genre{
+    width: fit-content;
+    margin-right: 5px;
+}
+
+.book_genres{
+    display: flex;
+}
+
+.genre_value {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.trigger{
+    display: flex;
+    padding: 8px;
+    background: #1a1a1a;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.trigger_arrow{
+    margin-left: 5px;
+}
+
+.trigger_text:hover{
+    text-decoration: underline;
+    color: #FFFAFA91;
+}
+
+.expanded_options{
+    padding: 8px 15px;
+    background: #1a1a1a;
+}
+
+.expanded_options > p{
+    padding: 5px 0;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.trigger_standart:hover{
+    color: #FFFAFA91;
+}
+
+.trigger_delete:hover{
+    color: #ff4e4e;
+}

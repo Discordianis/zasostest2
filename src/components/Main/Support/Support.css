@@ -1,0 +1,36 @@
+.support_page_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.support_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.support_form > input{
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    width: 25rem;
+    height: 2.2em;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0 0 1.1rem 0;
+}
+
+.support_form > select{
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    width: 25rem;
+    height: 2.2em;
+    font-size: 15px;
+    margin: 0 0 1.1rem 0;
+}
+
+.support_page_main > h2{
+    margin: 0 0 1.5rem 0;
+}

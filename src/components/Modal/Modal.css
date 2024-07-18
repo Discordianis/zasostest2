@@ -1,0 +1,13 @@
+.modal_main{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min-content;
+}
+
+.modal_main::backdrop{
+    backdrop-filter: blur(8px);
+}

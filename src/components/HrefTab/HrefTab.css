@@ -1,0 +1,11 @@
+.hreftab{
+    width: fit-content;
+    padding: 0 10px;
+    height: auto;
+    border-radius: 15px;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 1px;
+}

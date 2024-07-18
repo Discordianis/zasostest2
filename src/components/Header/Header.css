@@ -1,0 +1,87 @@
+.header{
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > a > img{
+    height: 70px;
+}
+
+.logo > a{
+    display: flex;
+}
+
+.logo{
+    display: block;
+    height: 100%;
+}
+
+.search_div{
+    width: fit-content;
+    display: flex;
+}
+
+.search_div > input{
+    width: 35rem;
+    height: 2.2em;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+.search_result{
+    width: 35rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background: #1a1a1a;
+    border-radius: 0 0 8px 8px;
+}
+
+.search_result > a{
+    padding: 5px;
+    margin: 2px 0;
+    background: #212121;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+}
+
+.search_result > a:hover{
+    transition: all 0.1s ease-in-out;
+    background: #2a2a2a;
+}
+
+.profile_button > a{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    padding: 8px;
+    border-radius: 8px;
+    background: #1a1a1a;
+    transition: all 0.2s ease-in-out;
+    justify-items: center;
+    align-items: center;
+}
+
+.profile_button > a:hover{
+    transition: all 0.2s ease-in-out;
+    background: #171717;
+}
+
+.profile_button > a > img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.profile_button > a > p{
+    margin: 10px;
+}
